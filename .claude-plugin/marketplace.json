@@ -1,0 +1,19 @@
+{
+    "name": "ormizl-plugins",
+    "owner": {
+      "name": "OrMizL",
+      "url": "https://github.com/OrMizL"
+    },
+    "plugins": [
+      {
+        "name": "sessionscribe",
+        "source": ".",
+        "description": "Automatically generates a clean, human-readable summary of every Claude Code session — what was asked, what files changed, and what commands ran.",
+        "version": "0.1.0",
+        "author": {
+          "name": "OrMizL",
+          "url": "https://github.com/OrMizL"
+        }
+      }
+    ]
+  }
