@@ -1,4 +1,5 @@
 #!/bin/bash
+source ~/.bashrc 2>/dev/null || true; source ~/.bash_profile 2>/dev/null || true; source ~/.profile 2>/dev/null || true; source ~/.zshrc 2>/dev/null || true
 # capture-prompt.sh
 # Fires on UserPromptSubmit. Appends every user prompt to the session log.
 

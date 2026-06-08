@@ -1,4 +1,5 @@
 #!/bin/bash
+source ~/.bashrc 2>/dev/null || true; source ~/.bash_profile 2>/dev/null || true; source ~/.profile 2>/dev/null || true; source ~/.zshrc 2>/dev/null || true
 # watch-tools.sh
 # Fires on PostToolUse. Logs every file write, edit, and bash command.
 

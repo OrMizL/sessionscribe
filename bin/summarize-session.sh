@@ -1,4 +1,5 @@
 #!/bin/bash
+source ~/.bashrc 2>/dev/null || true; source ~/.bash_profile 2>/dev/null || true; source ~/.profile 2>/dev/null || true; source ~/.zshrc 2>/dev/null || true
 # summarize-session.sh
 # Fires on Stop at the end of the final turn. Reads all prompts and activity,
 # calls Claude Haiku to generate a clean session summary, and saves it to
