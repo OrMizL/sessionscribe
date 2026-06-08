@@ -1,0 +1,10 @@
+{
+  "name": "sessionscribe",
+  "description": "Automatically generates a clean, human-readable summary of every Claude Code session — what was asked, what files changed, and what commands ran.",
+  "version": "0.1.0",
+  "author": {
+    "name": "OrMizL"
+  },
+  "homepage": "https://github.com/OrMizL/sessionscribe",
+  "license": "MIT"
+}
